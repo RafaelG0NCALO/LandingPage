@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link rel="icon" href="Images/logo.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Landing Page</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+
+            <h1>LOGO</h1>
+
+            <div class="navigation">
+                <a class="home active" href="#home" onclick="toggleMenu();">Home</a>
+                <a class="sobre"  href="#sobre" onclick="toggleMenu();">Sobre</a>
+                <a class="beneficios" href="#beneficios" onclick="toggleMenu();">Benefícios</a>
+                <a class="planos" href="#planos" onclick="toggleMenu();">Relatos</a>
+                <a class="contato" href="#contato" onclick="toggleMenu();">Contato</a>
+            </div>
+         
+            <div class="toggle" onclick="toggleMenu();">
+                <div class="contenttogg">
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <section id="home">
+            <div class="content">
+                <div class="text">
+                    <div class="contentText">
+                        <h1>Lorem impsu</h1>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae tempora rem laborum nam corrupti 
+                        suscipit ab repudiandae, accusamus dolores nobis eligendi quos perspiciatis quod enim tempore quasi 
+                        explicabo earum eius?</p>
+                        <a href="#">SIGN UP</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="Images/graphic1.png" alt="">
+                </div>
+
+            
+
+            </div>
+
+            <div class="scrollmouse">
+                <div class="mouse">
+                    <div class="scroll"></div>
+                    <span>Scroll</span>
+                    <i class="fa-solid fa-angles-down"></i>
+                </div>
+            </div>
+
+            <ul class="box-area">
+                <li></li><li></li>
+                <li></li><li></li>
+                <li></li><li></li>
+            </ul>
+    </section>
+
+    <section id="sobre">
+        <div class="container">
+            <div class="text">
+                <h1>Por Que Nós?</h1>
+            </div>
+            <div class="content">
+                <div class="boxAbout">
+                    <img src="Images/icon1.svg" alt="">
+                    <h1>Planejamento impecável</h1>
+                    <p>Conte com a gente como sua parceira no planejamento
+                    de seus projetos, conteúdos, campanhas, estratégias. Nossos 
+                    profissionais altamente qualificados estão preparados para 
+                    qualquer desafio.</p>
+                </div>
+                <div class="boxAbout">
+                    <img src="Images/icon2.svg" alt="">
+                    <h1>Planejamento impecável</h1>
+                    <p>Conte com a gente como sua parceira no planejamento
+                    de seus projetos, conteúdos, campanhas, estratégias. Nossos 
+                    profissionais altamente qualificados estão preparados para 
+                    qualquer desafio.</p>
+                </div>
+                <div class="boxAbout">
+                    <img src="Images/icon3.svg" alt="">
+                    <h1>Planejamento impecável</h1>
+                    <p>Conte com a gente como sua parceira no planejamento
+                    de seus projetos, conteúdos, campanhas, estratégias. Nossos 
+                    profissionais altamente qualificados estão preparados para 
+                    qualquer desafio.</p>
+                </div>
+                
+            </div>
+            <div class="start">
+                <h1>Vamos Começar Seu Projeto?</h1>
+                <p>Fale agora mesmo com um de nossos consultores!</p>
+                <a href="#">Entrar em Contato</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="beneficios">
+        <div class="content">
+            <div class="textBeneficios">
+                <h1>Benefícios Para Você</h1>
+                <div class="list">
+                    <i class="fa-solid fa-check"></i>
+                    <p>Garantia de resultados, pague de acordo com o desempenho do seu projeto ou campanha.</p>
+                </div>
+                <div class="list">
+                    <i class="fa-solid fa-check"></i>
+                    <p>Garantia de resultados, pague de acordo com o desempenho do seu projeto ou campanha.</p>
+                </div>
+                <div class="list">
+                    <i class="fa-solid fa-check"></i>
+                    <p>Garantia de resultados, pague de acordo com o desempenho do seu projeto ou campanha.</p>
+                </div>
+                <div class="list">
+                    <i class="fa-solid fa-check"></i>
+                    <p>Garantia de resultados, pague de acordo com o desempenho do seu projeto ou campanha.</p>
+                </div>
+                <div class="list">
+                    <i class="fa-solid fa-check"></i>
+                    <p>Garantia de resultados, pague de acordo com o desempenho do seu projeto ou campanha.</p>
+                </div>
+            </div>
+            <img src="Images/4818.jpg" alt="">
+        </div>
+    </section>
+
+    <section id="planos">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                    <div class="perfil">
+                        <img src="Images/perfil1.jpg" alt="">
+                        <h1>Lorem impsu</h1>
+                    </div>
+                    <div class="textTestemonials">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Minima, odit. Ipsum quia nulla facilis nostrum odio. Iure 
+                        quia sed numquam illo corrupti sunt, maxime, officia ipsam 
+                        unde.</p>
+                    </div>
+                     <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                     </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="perfil">
+                        <img src="Images/perfil4.jpg" alt="">
+                        <h1>Lorem impsu</h1>
+                    </div>
+                    <div class="textTestemonials">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Minima, o Iure quia sed numquam illo corrupti sunt, maxime, officia ipsam 
+                        unde quidem maiores culpa.</p>
+                    </div>
+                     <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                     </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="perfil">
+                        <img src="Images/perfil2.jpg" alt="">
+                        <h1>Lorem impsu</h1>
+                    </div>
+                    <div class="textTestemonials">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Minima, odit. Ipsum quia nulla facilis nostrum odio. Iure 
+                        quia sed numquam.</p>
+                    </div>
+                     <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                     </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="perfil">
+                        <img src="Images/perfil3.jpg" alt="">
+                        <h1>Lorem impsu</h1>
+                    </div>
+                    <div class="textTestemonials">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                        Minima, odit. Ipsum quia nulla facilis nostrum odio. Iure 
+                        quia sed numquam illo corrupti sunt, maxime, officia ipsam 
+                        unde quidem maiores culpa.</p>
+                    </div>
+                     <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                     </div>
+                  </div>
+
+                  <div class="swiper-slide">
+                    <div class="perfil">
+                        <img src="Images/perfil4.jpg" alt="">
+                        <h1>Lorem impsu</h1>
+                    </div>
+                    <div class="textTestemonials">
+                        <p>Ipsum quia nulla facilis nostrum odio. Iure 
+                        quia sed numquam illo corrupti sunt, maxime, officia ipsam 
+                        unde quidem maiores culpa.</p>
+                    </div>
+                     <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                     </div>
+                  </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+    </section>
+
+    <section id="contato" class="formulario">
+        <div class="container-form">
+    
+            <h1>CONTATO</h1>
+                    <div class="concluido">
+                        <i class="fa-solid fa-check"></i>
+                            <p>Formulário enviado com sucesso!</p >
+                            <p>Entraremos em contato em breve.</p>
+                        </div>
+
+                    <div class="content_login"> 
+                        <form id="form_cad" >
+                            <div class="form-control">
+                                <input type="text"      id="nome"       placeholder="Nome"  >
+                                <i class="fa-solid fa-circle-check"></i>
+                                <i class="fa-solid fa-circle-info"></i>
+                                <small>Error message</small>
+                            </div>
+                            <div class="form-control">
+                                <input type="email"     id="email"      placeholder="Email" >
+                                <i class="fa-solid fa-circle-check"></i>
+                                <i class="fa-solid fa-circle-info"></i>
+                                <small>Error message</small>
+                            </div>
+                            <div class="form-control">
+                                <input type="text"  id="telefone"      placeholder="Wathsapp" >
+                                <i class="fa-solid fa-circle-check"></i>
+                                <i class="fa-solid fa-circle-info"></i>
+                                <small>Error message</small>
+                            </div>
+                            <input type="submit" value="Enviar Formulário"/>
+                        </form>
+                        
+                    </div>    
+
+        </div>
+    </section>
+
+    <footer>
+        <div class="container-footer">
+            
+                <div class="footer-col">
+                    <h4>company</h4>
+                    <ul>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">our services</a></li>
+                        <li><a href="#">privacy policy</a></li>
+                        <li><a href="#">affiliate program</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>get help</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">shipping</a></li>
+                        <li><a href="#">returns</a></li>
+                        <li><a href="#">order status</a></li>
+                        <li><a href="#">payment options</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>online shop</h4>
+                    <ul>
+                        <li><a href="#">watch</a></li>
+                        <li><a href="#">bag</a></li>
+                        <li><a href="#">shoes</a></li>
+                        <li><a href="#">dress</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>follow us</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+        </div>
+   </footer>
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+         function toggleMenu(){
+            const menuToggle = document.querySelector('.toggle');
+            const navigation = document.querySelector('.navigation');
+                menuToggle.classList.toggle('active');
+                navigation.classList.toggle('active');
+        }
+
+        const sections = document.querySelectorAll("section");
+        const navLi = document.querySelectorAll("nav .navigation a");
+        window.addEventListener("scroll", () => {
+            let current = "";
+                sections.forEach((section) => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                    if (pageYOffset >= sectionTop - sectionHeight / 3) {
+                    current = section.getAttribute("id");
+                }
+            });
+                navLi.forEach((a) => {
+                a.classList.remove("active");
+                if (a.classList.contains(current)) {
+                    a.classList.add("active");
+                }
+            });
+        });
+
+        var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        autoplay: {
+          delay: 2500,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 1,
+            spaceBetween: 10,
+          },
+          768: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+          },
+          1024: {
+            slidesPerView: 3,
+            spaceBetween: 10,
+          },
+        },
+      });
+
+
+      /*----- Validação do Formulário Cadastro ----- */
+const form_cad = document.getElementById('form_cad');
+const nome = document.getElementById('nome');
+const email = document.getElementById('email');
+const telefone = document.getElementById('telefone');
+
+form_cad.addEventListener('submit', (e) => {
+	e.preventDefault();
+	checkInputs();
+});
+
+function checkInputs() {
+
+	const nomeValue = nome.value.trim();
+	if(nomeValue === '') {
+		setErrorFor(nome, 'Preencha o nome');
+	} else if(nomeValue != '') {
+		successValidation(nome)
+	}
+
+    const emailValue = email.value.trim()
+    if(emailValue === ''){
+        setErrorFor(email, 'Preencha o Email')
+    } else if(emailValue.length > 4){
+        successValidation(email)
+    }
+
+    const telefoneValue = telefone.value.trim()
+    if(telefoneValue === ''){
+        setErrorFor(telefone, 'Preencha o wathsapp')
+    } else{
+        successValidation(telefone)
+    }
+
+    if(nomeValue != '' && 
+       emailValue.length > 4 &&
+       telefoneValue != ''
+    ) {
+        CadastroFinalizado()
+    } 
+
+}
+
+function setErrorFor(input, message) {
+	const formControl = input.parentElement;
+    const small = formControl.querySelector('small')
+    small.innerText = message
+	formControl.className = 'form-control error';
+}
+
+function successValidation(input){
+    const formControl = input.parentElement
+    formControl.className = 'form-control success'
+}
+
+function CadastroFinalizado(){
+    Finalizado = document.querySelector('.concluido');
+    Finalizado.classList.toggle('finalizado');
+}
+
+    </script>
+</body>
+</html>
